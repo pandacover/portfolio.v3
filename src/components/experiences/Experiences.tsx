@@ -3,9 +3,7 @@ import Heading from "../heading";
 
 import { EXPERIENCES, ExperienceType } from "./experiences.constants";
 
-type ExperiencesProps = {};
-
-const Experiences = (props: ExperiencesProps) => {
+const Experiences = () => {
   const renderExperience = (experience: ExperienceType) => {
     const { id, end, start, title, orgName } = experience;
 

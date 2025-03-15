@@ -3,7 +3,6 @@
 import { useCallback } from "react";
 
 import Image from "next/image";
-import Link from "next/link";
 import Heading from "../heading";
 import SocialIcon from "../socialIcon";
 import SOCIAL_ICONS from "./header.icons";
